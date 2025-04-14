@@ -29,3 +29,14 @@ CPUTEST
     occurs during the "Begin Timing Test" and "End Timing Test"
     period. On a 2MHz 8080, the timing test period lasts about
     two minutes.
+
+The *.mac files are the tst, pre, exer and exm .MAC files slightly
+edited to the specs required of mac8080. The .mix files were
+used to convert the output of mac8080+llf of the respective source
+file into an image that was compared to the contents of the COM
+files to verify the output of the mac8080 assembler/linker.
+
+In case one wants/needs to know, get macxx from
+https://github.com/daveshepperd/macxx.git, llf from
+https://github.com/daveshepperd/llf.git and mixit from
+https://github.com/daveshepperd/mixit.git.

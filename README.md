@@ -82,4 +82,9 @@ Tests complete
 
 - [CPU instructions](http://nemesis.lonestar.org/computers/tandy/software/apps/m4/qd/opcodes.html) and [this table](http://www.pastraiser.com/cpu/i8080/i8080_opcodes.html)
 - [MAME i8085](https://github.com/mamedev/mame/blob/6c0fdfc5257ca20555fbc527203710d5af5401d1/src/devices/cpu/i8085/i8085.cpp)
-- [thibaultimbert's Intel8080](https://github.com/thibaultimbert/Intel8080/blob/master/8080.js) and [begoon's i8080-js](https://github.com/begoon/i8080-js)
+- [thibaultimbert's Intel8080](https://github.com/thibaultimbert/Intel8080/blob/master/8080.js) and [begoon's i8080-js](https://github.com/begoon/i8080-js
+
+## Updates by Dave Shepperd
+
+Added *.mac edited to mac8080 syntax and *.mix files in cpu_test. Used them to test the 8080 module added to mac8080. The mix files can be used by mixit to
+make images to compare against the COM files.

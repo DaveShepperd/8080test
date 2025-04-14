@@ -1,0 +1,5 @@
+out exm.img -fill=0
+in exm.hex -add=100:12ff:0
+out exm.rom -fill=0
+in exm.img
+exit

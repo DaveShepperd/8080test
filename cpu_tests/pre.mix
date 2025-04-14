@@ -1,0 +1,5 @@
+out pre.img -fill=0
+in pre.hex -add=100:4ff:0
+out pre.rom -fill=0
+in pre.img
+exit

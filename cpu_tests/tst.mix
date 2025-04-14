@@ -1,0 +1,5 @@
+out tst.img -fill=0
+in tst.hex -add=100:6ff:0
+out tst.rom -fill=0
+in tst.img
+exit
